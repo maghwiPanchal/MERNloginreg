@@ -12,10 +12,9 @@ This is a simple MERN (MongoDB, Express, React, Node.js) stack project for user 
 
 ## Technologies Used
 
-- Frontend: React, Vite, Axios, TailwindCSS, Redux Toolkit, React Router
-- Backend: Node.js, Express, MongoDB, Mongoose, JWT, bcrypt, CORS, express-validator
+- Frontend: React, Vite, Axios, TailwindCSS, Redux Toolkit, React-Router-Dom, @heroicons/react
+- Backend: Node.js, Express, MongoDB, Mongoose, JWT, bcryptjs, CORS, express-validator, dotenv
 - Database: MongoDB (local or cloud with MongoDB Atlas)
-- Environment variables: dotenv
 
 ## Getting Started
 
