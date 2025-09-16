@@ -29,7 +29,7 @@ This is a simple MERN (MongoDB, Express, React, Node.js) stack project for user 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/mern-login-reg.git
+git clone https://github.com/maghwiPanchal/MERNloginreg.git
 cd mern-login-reg
 ```
 
