@@ -22,7 +22,7 @@ function App() {
       if (token) {
         dispatch(setLoading(true));
         try {
-          const res = await axios.get("/api/auth/me", {
+          const res = await axios.get("/user/me", {
             headers: { Authorization: `Bearer ${token}` },
           });
           dispatch(setUser(res.data));
@@ -47,7 +47,7 @@ function App() {
   }, [dispatch]);
 
   if (loading) {
-    return null; // could add a spinner here later
+    return null; 
   }
 
   return (
