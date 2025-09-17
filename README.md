@@ -92,4 +92,6 @@ The frontend will be available at what the port Vite assigns.
 
 ## License
 
-This project is licensed under the MIT License.
+All rights reserved. This project is not licensed for reuse or redistribution.
+
+
