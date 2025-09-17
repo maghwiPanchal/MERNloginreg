@@ -61,6 +61,13 @@ Replace `your_mongodb_connection_string` and `your_jwt_secret` with your actual 
 
 ### Running the Application
 
+## CORS Configuration
+
+The backend server uses CORS to allow requests from the frontend. By default, it allows origins such as `http://localhost:5173` or `http://localhost:5174` (default Vite ports). If you change the frontend port, update the CORS allowed origins accordingly in the backend configuration.
+
+## Running the Application
+
+
 1. Start the backend server:
 
 ```bash
@@ -75,7 +82,7 @@ cd ../frontend
 npm run dev
 ```
 
-The frontend will be available at `http://localhost:3000` (or the port Vite assigns).
+The frontend will be available at what the port Vite assigns.
 
 ## Usage
 
